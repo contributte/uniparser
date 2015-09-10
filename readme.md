@@ -1,7 +1,7 @@
 # Uniparser
 
 [![Build Status](https://travis-ci.org/minetro/uniparser.svg?branch=master)](https://travis-ci.org/minetro/uniparser)
-[![Downloads this Month](https://img.shields.io/packagist/dm/minetro/uniparser.svg?style=flat)](https://packagist.org/packages/minetro/uniparser)
+[![Downloads total](https://img.shields.io/packagist/dt/minetro/uniparser.svg?style=flat)](https://packagist.org/packages/minetro/uniparser)
 [![Latest stable](https://img.shields.io/packagist/v/minetro/uniparser.svg?style=flat)](https://packagist.org/packages/minetro/uniparser)
 [![HHVM Status](https://img.shields.io/hhvm/minetro/uniparser.svg?style=flat)](http://hhvm.h4cc.de/package/minetro/uniparser)
 
