@@ -41,7 +41,7 @@ $ composer require minetro/uniparser:~1.0.0
 ### Standalone
 
 ```php
-use Minetro\Uniparser\ParseFactory;
+use Minetro\Uniparser\ParserFactory;
 
 $factory = new ParserFactory();
 
@@ -53,7 +53,7 @@ echo $adapter->parse($text);
 ### Latte
         
 ```yaml
-uniparser.factory: Minetro\Uniparser\ParseFactory
+uniparser.factory: Minetro\Uniparser\ParserFactory
 
 nette.latteFactory:
     setup:
