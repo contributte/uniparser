@@ -43,7 +43,7 @@ $ composer require minetro/uniparser:~1.0.0
 ```php
 use Minetro\Uniparser\ParseFactory;
 
-$factory = new ParseFactory();
+$factory = new ParserFactory();
 
 $adapter = $factory->create('parsedown');
 
