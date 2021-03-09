@@ -15,8 +15,8 @@ Universal text parser for Nette & Latte.
 
 ## Install
 
-```sh
-$ composer require minetro/uniparser:~1.0.0
+```bash
+composer require minetro/uniparser:~1.0.0
 ```
 
 ## Dependencies
