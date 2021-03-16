@@ -15,8 +15,8 @@ Universal text parser for Nette & Latte.
 
 ## Install
 
-```sh
-$ composer require minetro/uniparser:~1.0.0
+```bash
+composer require minetro/uniparser:~1.0.0
 ```
 
 ## Dependencies
@@ -51,13 +51,13 @@ echo $adapter->parse($text);
 ```
 
 ### Latte
-        
-```yaml
+
+```neon
 uniparser.factory: Minetro\Uniparser\ParserFactory
 
 nette.latteFactory:
-    setup:
-        - addFilter(texy, [@uniparser.factory::create('texy'), parse])
-        - addFilter(parsedown, [@uniparser.factory::create('parsedown'), parse])
-        - addFilter(markdown, [@uniparser.factory::create('markdown'), parse])
+	setup:
+		- addFilter(texy, [@uniparser.factory::create('texy'), parse])
+		- addFilter(parsedown, [@uniparser.factory::create('parsedown'), parse])
+		- addFilter(markdown, [@uniparser.factory::create('markdown'), parse])
 ```
