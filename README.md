@@ -1,23 +1,25 @@
-# Uniparser
+![](https://heatbadger.now.sh/github/readme/contributte/uniparser/?deprecated=1)
 
-Universal text parser for Nette & Latte.
+<p align=center>
+    <a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
+    <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
+    <a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
+</p>
 
------
+<p align=center>
+    Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
+</p>
 
-[![Build Status](https://img.shields.io/travis/minetro/uniparser.svg?style=flat-square)](https://travis-ci.org/minetro/uniparser)
-[![Downloads total](https://img.shields.io/packagist/dt/minetro/uniparser.svg?style=flat-square)](https://packagist.org/packages/minetro/uniparser)
-[![Latest stable](https://img.shields.io/packagist/v/minetro/uniparser.svg?style=flat-square)](https://packagist.org/packages/minetro/uniparser)
-[![HHVM Status](https://img.shields.io/hhvm/minetro/uniparser.svg?style=flat-square)](http://hhvm.h4cc.de/package/minetro/uniparser)
+## Disclaimer
 
-## Discussion / Help
+| :warning: | This project is no longer being maintained. Please use [contributte/latte](https://github.com/contributte/latte).
+|---|---|
 
-[![Join the chat](https://img.shields.io/gitter/room/minetro/nette.svg?style=flat-square)](https://gitter.im/minetro/nette?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-## Install
-
-```bash
-composer require minetro/uniparser:~1.0.0
-```
+| Composer | [`minetro/uniparser`](https://packagist.org/minetro/uniparser) |
+|---| --- |
+| Version | ![](https://badgen.net/packagist/v/minetro/uniparser) |
+| PHP | ![](https://badgen.net/packagist/php/minetro/uniparser) |
+| License | ![](https://badgen.net/github/license/minetro/uniparser) |
 
 ## Dependencies
 
@@ -61,3 +63,16 @@ nette.latteFactory:
 		- addFilter(parsedown, [@uniparser.factory::create('parsedown'), parse])
 		- addFilter(markdown, [@uniparser.factory::create('markdown'), parse])
 ```
+
+## Development
+
+This package was maintain by these authors.
+
+<a href="https://github.com/f3l1x">
+  <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
+</a>
+
+-----
+
+Consider to [support](https://contributte.org/partners.html) **contributte** development team.
+Also thank you for being used this package.
