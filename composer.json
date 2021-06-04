@@ -1,9 +1,14 @@
 {
   "name": "minetro/uniparser",
   "description": "Universal text parser (Texy, Markdown, Parsedown) for Nette & Nette/Latte",
-  "keywords": ["parser", "texy", "markdown", "parsedown"],
+  "keywords": [
+    "parser",
+    "texy",
+    "markdown",
+    "parsedown"
+  ],
   "type": "library",
-  "license": ["BSD-3-Clause"],
+  "license": "MIT",
   "homepage": "https://github.com/minetro/uniparser",
   "authors": [
     {
@@ -12,13 +17,14 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=5.6.0"
   },
   "require-dev": {
-    "nette/tester": "~1.4.0",
-    "michelf/php-markdown": "~1.5.0",
-    "erusev/parsedown-extra": "~0.7.0",
-    "texy/texy": "~2.6.0"
+    "nette/tester": "^2.0.2",
+    "michelf/php-markdown": "^1.5.0",
+    "erusev/parsedown-extra": "^0.7.0",
+    "erusev/parsedown": "^1.6",
+    "texy/texy": "^2.6"
   },
   "suggest": {
     "michelf/php-markdown": "For processing markdown",
@@ -26,6 +32,8 @@
     "texy/texy": "For processing texy"
   },
   "autoload": {
-    "classmap": ["src/"]
+    "classmap": [
+      "src/"
+    ]
   }
 }
