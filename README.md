@@ -19,7 +19,7 @@
 |---| --- |
 | Version | ![](https://badgen.net/packagist/v/minetro/uniparser) |
 | PHP | ![](https://badgen.net/packagist/php/minetro/uniparser) |
-| License | ![](https://badgen.net/github/license/minetro/uniparser) |
+| License | ![](https://badgen.net/github/license/contributte/uniparser) |
 
 ## Dependencies
 
