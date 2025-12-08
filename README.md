@@ -15,7 +15,7 @@
 | :warning: | This project is no longer being maintained. Please use [contributte/latte](https://github.com/contributte/latte).
 |---|---|
 
-| Composer | [`minetro/uniparser`](https://packagist.org/minetro/uniparser) |
+| Composer | [`minetro/uniparser`](https://packagist.org/packages/minetro/uniparser) |
 |---| --- |
 | Version | ![](https://badgen.net/packagist/v/minetro/uniparser) |
 | PHP | ![](https://badgen.net/packagist/php/minetro/uniparser) |
